@@ -1,0 +1,24 @@
+# WiFi credentials - keep your secrets private!
+firmwares/*/secrets.h
+firmwares/*/wifi_config.h
+**/secrets.h
+**/wifi_config.h
+
+# Arduino build files
+*.hex
+*.elf
+*.bin
+build/
+.arduino/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+

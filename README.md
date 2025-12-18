@@ -13,6 +13,11 @@ Demo that renders a wireframe cube that continuously rotates on three axes.
 ### `firmwares/stick_figure/stick_figure.ino`
 A simple graphics example that draws a static stick figure on the display. Draws the figure once during setup and maintains the static image.
 
+### `firmwares/kanye_quote/kanye_quote.ino`
+Fetches random Kanye West quotes from the kanye.rest API and displays them on the e-ink screen with automatic word wrapping. Refreshes the quote every 60 seconds.
+
+
+
 ## Heltec ESP32 Series Quick Start
 
 **Source:** [Heltec ESP32 Series Quick Start Documentation](https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html)
