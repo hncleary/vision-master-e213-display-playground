@@ -1,4 +1,19 @@
-# Heltec ESP32 Series Quick Start
+# Heltec ESP32 Series Firmware / Display Playground
+
+## Firmware Examples
+
+This repository contains several example firmware sketches for the Heltec E213 e-ink display:
+
+### `firmwares/heltec_provided_sample/heltec_provided_sample.ino`
+A comprehensive demonstration program that cycles through various display capabilities. It showcases multiple demo modes including font face rendering at different sizes, text flow and wrapping, text alignment (left, center, right), geometric shapes (rectangles, lines, circles), and image rendering. The program automatically switches between demo modes every 15 seconds, providing a complete overview of the display's graphical and text rendering features.
+
+### `firmwares/rotating_cube/rotating_cube.ino`
+Demo that renders a wireframe cube that continuously rotates on three axes.
+
+### `firmwares/stick_figure/stick_figure.ino`
+A simple graphics example that draws a static stick figure on the display. Draws the figure once during setup and maintains the static image.
+
+## Heltec ESP32 Series Quick Start
 
 **Source:** [Heltec ESP32 Series Quick Start Documentation](https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html)
 
